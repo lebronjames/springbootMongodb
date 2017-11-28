@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://migu_mongo:123456@10.5.2.242:27017/admin
