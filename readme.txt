@@ -45,7 +45,8 @@ cd /usr/local/mongodb/bin
 use admin
 创建用户为migu_mongo 密码为123456的用户
 针对数据库创建用户
-db.createUser({user: "migu_mongo",pwd: "123456",roles: [{ role: "userAdminAnyDatabase", db: "admin" }]})
+db.createUser({user: "migu_mongo",pwd: "123456",roles: 
+[{ role: "userAdminAnyDatabase", db: "admin" }]})
 在admin数据库认证
 db.auth('migu_mongo','123456')
 
